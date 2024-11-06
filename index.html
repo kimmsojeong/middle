@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+    <title>용인 별빛마실</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <canvas id="pixie"></canvas>
+      <canvas id="bus-route"></canvas>
+    </div>
+    <div id="meteor-container"></div>
+
+    <img src="img/BackGround.png" alt="BackGround" class="background" />
+
+    <div class="tittle">용인 별빛마실</div>
+    <div class="subtitle">
+      “용인 별빛마실은 용인시청에서 출발하여 다시 용인시청으로 돌아오는
+      &lt;버스투어&gt; 프로그램입니다.”
+    </div>
+    <div class="date">
+      <span class="light">2023.</span>09.01
+      <span class="light"> FRI - </span> 09.03 <span class="light"> SUN</span
+      ><br />
+      <span class="light">PM 5:00 ~ 10:30</span>
+    </div>
+
+    <div class="text-container">
+      <div class="text-item" id="text0">시청/용인대역</div>
+      <div class="text-item" id="text1">칼리오페</div>
+      <div class="text-item" id="text2">시간정원</div>
+      <div class="text-item" id="text3">농도원 목장</div>
+      <div class="text-item2" id="text-0">용인의 별빛</div>
+      <div class="text-item2" id="text-1">그리스의 별빛</div>
+      <div class="text-item2" id="text-2">프랑스의 별빛</div>
+      <div class="text-item2" id="text-3">스위스&이탈리아의 별빛</div>
+    </div>
+
+    <img src="img/Bus.png" alt="Bus" class="bus" />
+    <div class="bus_line"></div>
+
+    <img src="img/Star.png" alt="Star0" class="star star-0" />
+    <img src="img/Star.png" alt="Star1" class="star star-1" />
+    <img src="img/Star.png" alt="Star2" class="star star-2" />
+    <img src="img/Star.png" alt="Star3" class="star star-3" />
+
+    <div class="info info-1">
+      <span class="medium">사전예약 |</span> 2023년 8월 11일(금) ~ 12일(토)<br />
+      <span class="medium">접수기간 |</span> 2023년 8월 15일(화) ~ 21일(월)<br />
+      <span class="medium">접수방법 |</span> 온라인 신청(QR코드) 및 참가비 송금
+    </div>
+    <div class="info info-2">
+      <span class="medium">참가비 |</span> 1인당 15,000원 일별 선착순 70명 접수
+      (1인 4매 한정) <br />
+      <span class="medium">문의처 |</span> 02-XXX-XXXX
+    </div>
+    <div class="info_detail">
+      * 사전예약자 선착순 100분께 소정의 상품을 드립니다. <br />* 공연은
+      용인문화재단 아임버스커 아티스트와 함께합니다
+    </div>
+
+    <img src="img/Moon.png" alt="Moon" class="moon" />
+    <div class="text-display" id="text-first">&#35; 첫번째 마실</div>
+    <div class="text-display" id="text-second">&#35; 두번째 마실</div>
+    <div class="text-display" id="text-third">&#35; 세번째 마실</div>
+    <div class="text-display additional-text" id="text-additional1">
+      그리스의 별빛 [칼리오페]
+    </div>
+    <div class="text-display additional-text" id="text-additional2">
+      프랑스의 별빛 [시간상점]
+    </div>
+    <div class="text-display additional-text" id="text-additional3">
+      스위스&이탈리아 별빛 [농도원목장]
+    </div>
+
+    <div class="text-box" id="main-text-box">
+      <p id="star-text">이곳에 텍스트가 표시됩니다.</p>
+    </div>
+    <div
+      class="additional-text-box"
+      id="additional-text-box"
+      style="display: none"
+    >
+      <p id="additional-text">여기에 추가 텍스트가 표시됩니다.</p>
+    </div>
+
+    <img src="img/Land.png" alt="Land" class="land" />
+    <img src="img/YongIn.png" alt="YongIn" class="yongin" />
+  </body>
+</html>
